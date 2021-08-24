@@ -1,0 +1,38 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width:100%;
+    height:60px;
+    position:absolute;
+    /* padding: 10px 20px; */
+    background-color: #333;
+}
+
+.header_left {
+    position: relative;
+    margin-left:20px;
+    padding-bottom:10px;
+    float:left;
+    top:50%;
+}
+
+.header_left div { 
+    display:inline;
+}
+
+.header_right { 
+    position: relative;
+    float: right;
+    margin-right:20px;
+    padding-bottom:10px;
+
+    top: 50%;}
+
+.header_right div {
+    display:inline;
+
+}
