@@ -1,6 +1,8 @@
-body { 
+html body { 
     margin: 0;
     padding: 0;
+    height:100%;
+    
 }
 
 
@@ -14,25 +16,137 @@ header {
 
 .header_left {
     position: relative;
-    margin-left:20px;
-    padding-bottom:10px;
+    margin:-10px 0 0 20px;
     float:left;
     top:50%;
+    
 }
 
 .header_left div { 
     display:inline;
+    margin-right:12px;
+    color: #fff;
 }
 
 .header_right { 
     position: relative;
     float: right;
-    margin-right:20px;
-    padding-bottom:10px;
-
+    margin:-10px 20px 0 0;
     top: 50%;}
 
 .header_right div {
     display:inline;
+    margin-left:12px;
+    color: #fff;
 
+}
+
+.area_top  {
+    position:absolute;
+    width:100%;
+    height: 400px;
+    margin-top: 60px;
+    background-color: #444;
+}
+
+.search {
+    position:relative;
+    top:50%;
+    left:50%;
+    margin: -80px 0 0 -200px;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(245,245,245, 0.1);
+    border-radius: 10px;
+}
+.search div {
+    position: relative;
+    float: left;    
+}
+
+.search :nth-child(1) {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    margin: 8px 0 0 12px;
+    text-align: center;
+    background-color: rgba(245,245,245, 0.1);
+}
+
+
+.search :nth-child(2) {
+    font-size: 18px;
+    margin:20px 0 0 12px;
+    color:rgba(245,245,245, 0.5);
+}
+
+.add {
+    position: relative;
+    top:50%;
+    left:50%;
+    margin:40px 0 0 -40px;
+    width:60px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding:20px;
+    border-radius: 2px;
+    background-color: rgba(245,245,245, 0.1);
+}
+
+.setting {
+    position: relative;
+    left: 20px;
+    bottom: -275px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(245,245,245, 0.1);
+
+}
+.container {
+    height:100%;
+    overflow: hidden;
+}
+
+.box {
+    height: 100vh;
+    float: left;
+    margin-top:460px;
+}
+
+.left-bar {
+    width: 360px;
+    background-color:  rgba(99,99,99, 1);
+}
+
+.fixed-box {
+    position:relative;
+    top: 20px;
+    left: 60px;
+    width: 280px;
+    background-color: rgba(245,245,245, 0.5);
+}
+
+.fixed-box div {
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contents {
+    width: 1721px;
+    background-color: lightgreen;
 }
