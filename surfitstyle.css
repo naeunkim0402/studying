@@ -135,11 +135,11 @@ header {
 .main {
     padding: 10px;
     box-sizing:content-box;
-    font-size: 18px;
     border-radius: 4px;
+    font-size: 18px;
+    color:#fff;
     font-weight: 400;
     margin-bottom: 12px;
-    color:#fff;
     background-color: rgba(245,245,245, 0.05);
 
 }
@@ -178,24 +178,77 @@ header {
     margin: 50px 12px 0 30px;
 
 }
+
 .recommend-contents {
-    width:833px;
-    height: 200px;
+    width:900px;
+    height: 350px;
     margin-right: 2px;
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
 }
+
+.article {
+    padding:0 12px;
+    box-sizing: border-box;
+}
+
+.align .contents-box {
+    float:left;
+    margin-right:20px;
+}
+
+
+
+.title {
+    font-size: 18px;
+    color:#fff;
+    font-weight: 500;
+    padding:8px 12px 16px;
+    box-sizing: border-box;
+}
+
+.contents-box{
+    width:272px;
+    height:300px;
+    margin-bottom:20px;
+    background-color: rgba(245,245,245, 0.05);
+}
+
 
 .apply {
-    width: 333px;
-    height:200px;
-    background-color:magenta;
+    width: 270px;
+    height:350px;
+    margin-left:-8px;
+    /* background-color:magenta; */
 }
+.apply .title {
+    float: left;
+}
+.count{
+    position: relative;
+    float: right;
+    font-size: 14px;
+    color:#fff;
+    font-weight: 500;
+    padding:8px 12px 16px;
+    box-sizing: border-box;
 
+}
+.apply-contents {
+    margin-top: 45px;
+}
+.apply-contents div {
+    width:250px;
+    height:64px;
+    margin:0 12px 16px;
+    box-sizing: border-box;
+    background-color: rgba(245,245,245, 0.05);
+}
 .new-contents {
     width:1199px;
     height:2700px;
-    background-color:midnightblue;
+    /* background-color:midnightblue; */
 }
+
 
 
 
