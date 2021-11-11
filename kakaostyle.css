@@ -1,0 +1,38 @@
+body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,menu{margin:0;padding:0;border:0}
+table,th,td{border-spacing:0;border-collapse:collapse}
+ol,ul,li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal}
+body,input,textarea,keygen,select,button{font:normal 12px/1.2 'Pretendard','Noto Sans',sans-serif}
+input,textarea,select,button{margin:0;padding:0;border-radius:0;color:#333;outline:0;vertical-align:middle}
+a:link,a:visited,a:hover,a:active{text-decoration:none}
+a,button,input[type='submit'],input[type='button'],input[type='reset']{border:0;background:transparent;cursor:pointer}
+img{border:0;vertical-align:top}
+
+.clearfix::after{display:block;content:'';clear:both}
+
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:120px;
+    background-color: #fff;
+}
+
+.top_banner {
+    position: relative;
+    background-color: rgb(79, 167, 79);
+}
+.top_banner .banner_text {
+    display: inline;
+    font-size :14px;
+    font-weight: 300;
+    line-height: 50px;
+    color:#fff;
+}
+.top_banner .banner_img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
